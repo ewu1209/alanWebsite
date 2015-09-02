@@ -33,6 +33,10 @@ h2, h4 {
   font-family: bebas;
   src: url(../font/bebas.ttf);
 }
+@font-face {
+  font-family: angelecia;
+  src: url(../font/angelecia.otf);
+}
 .available_from {
   color: white;
   margin-right: 27px;
@@ -310,7 +314,7 @@ section{
 }
 
 .book2 h1 {
-  font-size: 60px;
+  font-size: 90px;
   font-family: bebas; 
 }
 
@@ -319,6 +323,63 @@ section{
   margin-top: 20px;
   font-family: bebas;
 }
+
+
+.book2 {
+  background: #a8a8a8 !important;
+}
+
+.book2 p {
+  color: white;
+}
+
+
+.book3 {
+  padding-top: 150px;
+}
+
+.book3 h1 {
+  font-size: 118px;
+  font-family: dirtyEgo; 
+}
+
+.book3 h2 {
+  font-size: 33px;
+  margin-top: 20px;
+  font-family: bebas;
+}
+
+.book3 {
+  background: #a8a8a8 !important;
+}
+
+.book3 p {
+  color: white;
+}
+
+
+
+.book4 {
+  padding-top: 150px;
+}
+
+.book4 h1 {
+  font-size: 60px;
+  font-family: angelecia; 
+}
+
+.book4 h2 {
+  font-size: 33px;
+  margin-top: 20px;
+  font-family: angelecia !important;
+}
+
+.book4 p {
+  color: white;
+}
+
+
+
 
 .heading .hr{
 	border: 1px solid rgba(255,255,255,0.7);
@@ -367,13 +428,6 @@ section{
   margin-top: -44px;
 }
 
-.book2 {
-  background: #a8a8a8 !important;
-}
-
-.book2 p {
-  color: white;
-}
 
 /********************* FEATURES SECTION *********************/
 
