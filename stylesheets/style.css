@@ -223,13 +223,12 @@ section{
 }
 
 #mobile-toggle{
-	float: right;
 	font-size: 40px;
 	color: #888;
-	display: block;
 	cursor: pointer;
-	position: relative;
-	bottom: 35px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
 }
 
 #logo{
