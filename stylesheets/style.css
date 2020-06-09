@@ -821,3 +821,104 @@ section{
 	padding-right: 10px;
 	opacity: 1 !important;
 }
+
+
+
+/* press release box */
+
+
+.press {
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 100px;
+}
+
+.press .column {
+	padding: 15px !important;
+}
+
+.press * {
+  box-sizing: border-box;
+}
+
+.press h2 {
+	color: white;
+}
+
+.press .hr {
+	margin-bottom: 40px;
+	float: left;
+}
+
+.press .header {
+  text-align: center;
+  padding: 32px;
+}
+
+.press .story {
+	padding: 23px;
+  	margin-bottom: 40px;
+  	vertical-align: middle;
+ 	width: 100%;
+ 	background: white;
+ }
+
+ .press .story span {
+ 	font-size: 24px;
+ 	line-height: 30px;
+ 	font-weight: bold;
+ 	display: block;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+
+.press .story strong {
+	text-align: right;
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.press .story a {
+	text-align: right;
+	display:block;
+	font-weight: bold;
+}
+
+.press .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.press .column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.press .column .logo {
+  margin-bottom: 8px;
+  height: 50px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+ .press .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .press  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
